@@ -1,0 +1,159 @@
+body {
+    background: #7A9AF5 url(images/duck21.jpg) top center no-repeat;
+    position: absolute;
+}
+
+.presentation {
+  float: left;
+  width: 400px;
+  left: 10px;
+}
+.duck {
+  float:right;
+  width: 800px;
+  height: 600px;
+}
+
+h1, h2, h3, p {
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  padding-top : 2px;
+}
+
+span {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.presentation p {
+    margin: 20px 0 10px 40px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.presentation h1 {
+  margin: 3% 15%;
+}
+.presentation a {
+  text-decoration: none;
+  color: #302EAD;
+}
+.presentation a:hover {
+  color: #BD6B0E;
+}
+.presentation p:last-of-type {
+  margin-top: 50px;
+}
+
+.play, .pause, .reset {
+  display: inline-block;
+  margin: 5% 13%;
+}
+
+.clock_board {
+  width: 350px;
+  height: 150px;
+  position: relative;
+  top: 140px;
+  left : 30px;
+}
+
+.clock_main {
+  height: 100px;
+  background-color: #7A9AF5;
+  border : 2px solid black;
+  box-shadow: 5px 5px 2px black;
+}
+
+.clock_buttons {
+  width: 140px;
+  float:left;
+}
+
+.clock_buttons p {
+  float: left;
+  margin-left: 10px;
+}
+
+.board_part {
+  width: 200px;
+  height: 100px;
+  float: right;
+}
+
+.black_board {
+  width: 185px;
+  height: 65px;
+  margin: 8% 5%;
+}
+
+.green {
+  color: #59BF3F;
+}
+
+.pink {
+  color: #9D3893;
+}
+
+.board {
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 65px;
+  font-size: 40px;
+}
+
+.setting_board {
+    width: 350px;
+    height: 235px;
+    position: relative;
+    top: 200px;
+    left: 130px;
+}
+
+.timers {
+  border : 2px solid black;
+  background-color: #7A9AF5;
+  width: 350px;
+  height: 200px;
+  box-shadow: 5px 5px 2px black;
+}
+
+.work_board, .break_board {
+  width: 175px;
+}
+.work_board {
+  float:left;
+}
+.break_board {
+  float: right;
+}
+.set {
+  display: block;
+  margin: auto auto;
+}
+
+.work_timer_setter, .break_timer_setter {
+  background-color: black;
+  width: 150px;
+  height: 70px;
+  margin: 0 auto;
+}
+.work_timer_setter span {
+  color: #59BF3F;
+}
+.break_timer_setter {
+  color: #9D3893;
+}
