@@ -3,6 +3,17 @@ body {
     position: absolute;
 }
 
+.presentation {
+  float: left;
+  width: 400px;
+  left: 10px;
+}
+.duck {
+  float:right;
+  width: 800px;
+  height: 600px;
+}
+
 h1, h2, h3, p {
   font-family: 'Indie Flower', cursive;
 }
@@ -28,8 +39,12 @@ span {
 }
 
 .presentation p {
-  margin-top: 10px;
-  font-size: 15px;
+    margin: 20px 0 10px 40px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.presentation h1 {
+  margin: 3% 15%;
 }
 .presentation a {
   text-decoration: none;
@@ -39,14 +54,7 @@ span {
   color: #BD6B0E;
 }
 .presentation p:last-of-type {
-  margin-top: 20px;
-}
-
-.presentation {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  left: 10px;
+  margin-top: 50px;
 }
 
 .play, .pause, .reset {
@@ -58,8 +66,8 @@ span {
   width: 350px;
   height: 150px;
   position: relative;
-  top: 40px;
-  left : 430px;
+  top: 140px;
+  left : 30px;
 }
 
 .clock_main {
@@ -111,8 +119,8 @@ span {
     width: 350px;
     height: 235px;
     position: relative;
-    top: 100px;
-    left: 520px;
+    top: 200px;
+    left: 130px;
 }
 
 .timers {
