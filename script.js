@@ -58,12 +58,17 @@ StopWatch.prototype = {
     var secondsToPrint = this.add_zero(this.seconds);
     $('#minutes').text(minutesToPrint);
     $('#seconds').text(secondsToPrint);
-    var titleLetter = "B"
+    var titleLetter = "Break"
+    var timeColor = $('.black_board').find('span');
     if(this.work_mode) {
-      titleLetter = "W"
+      titleLetter = "Work";
+      timeColor.removeClass('pink');
+      timeColor.addClass('green');
+    } else {
+      timeColor.removeClass('green');
+      timeColor.addClass('pink');
     }
-    document.title = titleLetter + " => " + minutesToPrint + " : " + secondsToPrint;
-
+      document.title =  minutesToPrint + " : " + secondsToPrint + " / " + titleLetter;
   },
   add_zero : function(num) {
     if(num < 10) {num = "0"+num; }
